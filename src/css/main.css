@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(0, 0, 0, .87);
+    line-height: 1.8;
+    margin: 0;
+}
+
+.topbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #FFF;
+    padding: 30px;
+
+}
+
+.topbar nav{
+    float: left;
+}
+
+.sociaux{
+    float: right;
+}
+
+.sociaux a{
+    padding: 0 12px;
+    opacity: .5;
+}
+
+.sociaux a:hover{
+    opacity: 1;
+}
+
+.topbar nav a{
+    color: #9F9F9F;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 53px;
+}
+
+.topbar nav a:hover{
+    color: #000;
+}
+
+.bannier {
+    height: 427px;
+    background: no-repeat center center/ cover url("../img/header.jpg");
+}
+
+.main{
+    float: left;
+    background: #FFF ;
+    width: calc(100% - 375px);
+}
+
+.sidebar{
+    float: right;
+    background: #FBFBFB;
+    width: 375px;
+}
+
+footer{
+    clear: both;
+}
